@@ -1,0 +1,383 @@
+/* Silver Linings style sheet
+   Authors: Rachel Zoe Silver, Lukas Jones
+   Date: 08/21/2014
+*/
+
+/* ------------------------------- General Style --------------------*/
+
+header, section, footer, nav, div {
+   display: block;
+}
+
+/* ------------------------------- Body style -----------------------*/
+
+html,body {
+	//background-color: #D6DDE4;
+	background-color: #F0F0F0;
+    margin: 0px auto;
+    padding: 0px;
+    //text-transform: uppercase;
+    //background-image: url(squared_metal.png);
+    
+    
+}
+
+/* ----------------------------- header style -------------------------- */
+
+header {
+	background-color: #38CDDA;
+    //background-image: url(squared_metal.png);
+    position: static;
+	//background-color: #99ccff;
+    top: 0;
+    width: 100%;
+    height: 136px;
+	//margin: 0 0 50px 0;
+    min-width: 850px;
+    //padding: 20px;
+}
+
+div.header {
+	max-width: 850px;
+	min-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+
+    float: left;
+    margin-top: 68px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    font-size: 2.2em;
+    color: black;
+    padding: 0 0 0 0;
+    display: inline;
+    
+}
+
+header p.heading {
+	margin-left: 4px;
+	margin-bottom: 0px;
+    margin-top: 0px;
+	padding-top: 2px;
+	float: left;
+	clear: left;
+	font-size: .85em;
+    
+	}
+
+
+/*---------------------------- Heading Style -----------------------------*/
+
+h2.first {
+    margin-top: 50px;
+}
+
+h3.contact {
+    margin-top: 50px;
+}
+
+h3 {
+    float: left;
+    clear: left;
+}
+
+h5 {
+    margin-bottom: 0%;
+}
+
+h6 {
+    float: left;
+}
+
+/* -------------------------- Navigation Style -------------------------- */
+
+
+nav {
+	float: right;
+	clear: right;
+	padding: 0;
+	max-width: 580px;
+    margin-top: 2px;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0px;
+	float: right;
+    min-width: 450px;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 0px;
+    margin: 0px 0px 0px 30px;
+	font-size: .80em;
+	color: #A8A8A8;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+/*----------------------------- Section Style -----------------------------*/
+
+section {
+	max-width: 850px;
+	min-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section.pad {
+    margin-left: 4px;
+}
+
+section.donation {
+   // margin: initial auto 4px auto;
+   //margin-left: 28px;
+}
+
+/* --------------------------- Paragraph Style ---------------------------*/
+
+
+
+
+
+/* -------------------------- Footer Style -------------------------------*/
+
+
+footer {
+    background-color: #A8A8A8;
+    width: 100%;
+    
+    bottom: 0;
+    position: relative;
+    margin-top: 225px;
+    height: 100px;
+    clear: left;
+    //background-image: url(squared_metal.png);
+}
+
+div.footer {
+	max-width: 850px;
+	min-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.img {
+    float: left;
+    width: 220px;    
+    margin-left: 0px;
+}
+
+div.address {
+    float: left;
+}
+
+div.img ul {
+    float: left;
+    clear: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    //background-color: red;
+}
+
+div.img ul li {
+    float: left;
+    //padding-right: 5px;
+    list-style-type: none;
+    //margin-left: 20px;
+}
+
+div.img p {
+    
+    font-size: .9em;
+    padding: 0px;
+    //margin: 5px 0px 0px 20px;
+    //padding: 0px;
+}
+div.address {
+    float: left;
+    margin-top: 10px;
+}
+img.address {
+    float: left;
+    clear: left;
+    
+}
+
+
+
+p.address {
+    margin-top: 0px;
+    float: left;
+    line-height: 20px;
+    font-size: .9em;
+}
+
+/* ---------------------------- Form Style -------------------------------*/
+
+
+
+fieldset {
+    background-color: white;
+    background-color: rgba(255,255,255,0.5);
+    float: left;
+    clear: left;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 764px;
+    margin-top: 50px;
+}
+
+fieldset.first {
+    margin-top: 20px;
+}
+
+form input.box {
+    margin-top: 20px;
+    background-color: white;
+    font-size: 1.0em;
+    width: 120px;
+    height: 120px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 10px;
+}
+
+input.box:hover {
+    background-color: #38CDDA;
+    border-color: #38CDDA;
+    
+}
+
+input.emailbox {
+    float: left;
+    clear: left;
+    width: 15px;
+    height: 15px;
+}
+
+input.donatebutton {
+    float: left;
+    clear: left;
+    margin-top: 50px;
+    margin-left: 240px;
+    width: 320px;
+    height: 70px;
+    margin-bottom: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+
+input {
+    width: 410px;
+    margin-top: 16px;
+}
+
+input.txt {
+    float: left;
+    
+}
+
+input.txt1 {
+    float: left;
+}
+
+input.amount {
+    float: left;
+    margin-top: 10px;
+    width: 250px;
+}
+
+input.txt3 {
+    float: left;
+    width: 100px;
+    margin-left: 8px;
+}
+
+
+
+select {
+    float: left;
+    width: 201px;
+    height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+select.txt4 {
+    float:  left;
+    width:  301px;
+}
+
+select.txt5 {
+    float: left;
+    margin-left: 8px;
+}
+/* ---------------------------- Label Style ---------------------*/
+
+
+label {
+    width: 228px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+label.amount {
+    float: left;
+    clear: left;
+    margin-top: 10px; 
+    width: 120px;
+}
+
+label.email {
+    float: left;
+    clear: left;
+    width: 240px;
+}
+
+
+label.txt {
+    float: left;
+    clear: left;
+}
+
+label.txt1 {
+    float: left;
+    width: 600px;
+}
+
+
+
+
+/*---------------------------- jQuery Styles --------------------------*/
+
+.highlight {
+    background-color: red;
+    font-size: 2%;
+    color: green;
+    width: 20px;
+    height: 20px;
+}
+

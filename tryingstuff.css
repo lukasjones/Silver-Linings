@@ -1,0 +1,129 @@
+/* Silver Linings style sheet
+   Authors: Rachel Silver, Lukas Jones
+   Date: 08/21/2014
+*/
+
+/* ------------------------------- Body style -----------------------*/
+
+html,body {
+	background-color: #D6DDE4;
+	margin: 0px auto;
+    padding: 0px;
+    //font-family: Constantia;
+    //text-transform: uppercase;
+}
+
+/* ----------------------------- header style -------------------------- */
+
+header {
+	
+	//background-color: #38CDDA;
+    position: static;
+	background-color: #99ccff;
+    top: 0;
+    width: 100%;
+    height: 150px;
+	//margin: 0 0 50px 0;
+    min-width: 900px;
+    //padding: 20px;
+    
+}
+
+header h1 {
+
+    float: left;
+	//position: absolute;
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: black;
+    padding: 0 0 0 0;
+    //margin: 0 0 0 0;
+    
+
+    //color: rgb(255,0,75);
+
+}
+
+header p.heading {
+	//margin: 0 0 0 0;
+	//position: absolute;
+	
+	margin-left: 45px;
+	top: 110px;
+	margin-bottom: 0;
+	padding: 0;
+	float: left;
+	clear: left;
+	font-size: .85em;
+    
+	}
+/* -------------------------- Navigation Style -------------------------- */
+
+
+
+nav {
+	float: right;
+	clear: right;
+	padding: 0;
+	max-width: 500px;
+    margin-top: 13px;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0px;
+	float: right;
+    min-width: 450px;
+}
+
+nav.horizontal ul li{
+	float: left;
+	list-style-type: none;
+	//margin-left: 10px;
+    margin: 0px 0px 0px 10px;
+	font-size: .95em;
+	color: #A8A8A8;
+}
+
+nav.horizontal ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav.horizontal ul li a:hover {
+    color: #A8A8A8;
+}
+
+
+/* ------------------------- Section Style ------------------------------ */
+
+section {
+	max-width: 900px;
+	min-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ------------------------- Divide Style ------------------------------ */
+
+
+div.header {
+	max-width: 900px;
+	min-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
