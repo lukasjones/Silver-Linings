@@ -1,0 +1,115 @@
+/* Silver Linings style sheet
+   Authors: Rachel Zoe Silver, Lukas Jones
+   Date: 10/23/2014
+*/
+
+/* ----------- general Styles ---------- */
+
+html, body, header, ul, li, p.heading, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: white;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*  --------------- Title Style  -------------------*/
+
+header {
+	width: 100%;
+	background: lightgray;
+	
+	top: 0;
+
+}
+
+h1 {
+	color: black;
+	float: left;
+	
+}
+
+p.heading {
+	color: black;
+	float: left;
+	clear: left;
+	margin-right: 100px;
+}
+
+div.header {
+	margin: auto auto;
+	width: auto;
+	
+}
+
+/*------------- Navigation Style -----------  */
+
+nav {
+	float: left;
+	clear: none;
+}
+
+ul {
+	list-style-type: none;
+	float: left;
+}
+
+li {
+	float: left;
+	padding: 0 5px;
+
+}
+
+li a {
+	color: black;
+}
+
+li a:hover {
+	color: white;
+}
+
+li:select {
+	background: white;
+}
+
+
+/*  ---------------  --------------------- */
+
+
+/*  -----------------  Clear Fix  ----------------  */
+
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	*zoom: 1;
+	margin: auto;
+	width: 1000px;
+}
+
+/*     Media Querries   */
+
+@media screen and (max-width: 480px) {
+	body {
+		background: red;
+		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+}

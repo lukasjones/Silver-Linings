@@ -5,9 +5,8 @@
 
 /* ------------------------------- General Style --------------------*/
 
-header, section, footer, nav, div {
-   display: block;
-}
+
+
 
 /* ------------------------------- Body style -----------------------*/
 
@@ -105,7 +104,7 @@ nav {
 	float: right;
 	clear: right;
 	padding: 0;
-	max-width: 580px;
+	/*max-width: 580px;*/
     margin-top: 2px;
 }
 
@@ -138,10 +137,12 @@ nav ul li a:hover {
 /*----------------------------- Section Style -----------------------------*/
 
 section {
-	max-width: 850px;
-	min-width: 850px;
-    margin-right: auto;
-    margin-left: auto;
+	/*max-width: 850px;
+	min-width: 850px;*/
+    width: 850px;
+    margin: 0 auto;
+/*    margin-right: auto;
+    margin-left: auto;*/
 }
 
 section.pad {
@@ -369,6 +370,14 @@ label.txt1 {
 }
 
 
+
+/*@media screen and (max-width: 800px) {
+    body {
+        background-color: green;
+        font-size: 3.5em;
+    }
+    
+}*/
 
 
 /*---------------------------- jQuery Styles --------------------------*/
