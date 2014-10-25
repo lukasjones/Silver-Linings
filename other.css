@@ -13,6 +13,7 @@ html, body, header, ul, li, p.heading, h1 {
 body {
 	background: white;
 	color: black;
+	
 }
 
 a {
@@ -32,14 +33,17 @@ header {
 h1 {
 	color: black;
 	float: left;
-	
+	margin: 4px 0 0 4px;	
 }
 
 p.heading {
 	color: black;
 	float: left;
 	clear: left;
-	margin-right: 100px;
+	font-size: .8em;
+	padding-bottom: 10px;
+	margin-left: 4px;
+
 }
 
 div.header {
@@ -50,37 +54,59 @@ div.header {
 
 /*------------- Navigation Style -----------  */
 
-nav {
-	float: left;
-	clear: none;
-}
 
-ul {
+ul.nav {
 	list-style-type: none;
 	float: left;
 }
 
-li {
+.nav li {
 	float: left;
 	padding: 0 5px;
-
+	font-size: .75em;
+	margin-left: 20px;
 }
 
-li a {
+.nav li a {
 	color: black;
 }
 
-li a:hover {
+.nav li a:hover {
 	color: white;
 }
 
-li:select {
-	background: white;
+
+
+
+/*  --------------- Body Style --------------------- */
+
+section.wrap {
+	margin: auto;
+	width: 820px;
+	text-align: justify;
+
 }
 
-
-/*  ---------------  --------------------- */
-
+p.body {
+	width: 500px;
+	line-height: 1.5em;
+	
+}
+section p:first-child:first-letter { float: left; 
+	color: #903; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px;
+}
+/*span.first-letter {
+	float: left;
+	font-size: 3.26em;
+	line-height: 60px;
+	font-weight: bold;
+	margin: 0.205em 0.153em 0 0;
+}*/
 
 /*  -----------------  Clear Fix  ----------------  */
 
@@ -96,7 +122,7 @@ li:select {
 .group {
 	*zoom: 1;
 	margin: auto;
-	width: 1000px;
+	width: 820px;
 }
 
 /*     Media Querries   */

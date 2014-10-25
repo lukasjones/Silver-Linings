@@ -232,12 +232,49 @@ p.address {
     line-height: 20px;
     font-size: .9em;
 }
+/*---------------------------- Contact Page Form Style -----------------------------*/
 
-/* ---------------------------- Form Style -------------------------------*/
+#contact label, #contact input, #contact select, #contact textarea, #contact button {
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+}
+
+form#contact {
+    margin: 40px 0 40px 0;
+
+}
+
+#contact input {
+    width: 35em;
+    height: 2em;
+   
+}
+
+#contact textarea {
+
+}
+
+#contact select {
+    width: 35em;
+    height: 2em;
+}
+
+#contact button {
+    width: 25rem;
+    height: 2em;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+div.contact {
+    float: right;
+}
+/* ---------------------------- Donation Form Style -------------------------------*/
 
 
 
-fieldset {
+.donation fieldset {
     background-color: white;
     background-color: rgba(255,255,255,0.5);
     float: left;
@@ -248,42 +285,45 @@ fieldset {
     margin-top: 50px;
 }
 
-fieldset.first {
+.donation fieldset.first {
     margin-top: 20px;
 }
 
-form input.box {
+.donation input.box {
     margin-top: 20px;
     background-color: white;
     font-size: 1.0em;
     width: 120px;
     height: 120px;
+    letter-spacing: 2px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     margin-right: 10px;
 }
 
-input.box:hover {
+.donation input.box:hover {
     background-color: #38CDDA;
     border-color: #38CDDA;
     
 }
 
-input.emailbox {
+.donation input.emailbox {
     float: left;
     clear: left;
     width: 15px;
     height: 15px;
 }
 
-input.donatebutton {
+.donation input.donatebutton {
     float: left;
     clear: left;
     margin-top: 50px;
     margin-left: 240px;
     width: 320px;
     height: 70px;
+    letter-spacing: 3px;
+    font-size: 0.9em;
     margin-bottom: 30px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -291,27 +331,27 @@ input.donatebutton {
     
 }
 
-input {
+.donation input {
     width: 410px;
     margin-top: 16px;
 }
 
-input.txt {
+.donation input.txt {
     float: left;
     
 }
 
-input.txt1 {
+.donation input.txt1 {
     float: left;
 }
 
-input.amount {
+.donation input.amount {
     float: left;
     margin-top: 10px;
     width: 250px;
 }
 
-input.txt3 {
+.donation input.txt3 {
     float: left;
     width: 100px;
     margin-left: 8px;
@@ -319,7 +359,7 @@ input.txt3 {
 
 
 
-select {
+.donation select {
     float: left;
     width: 201px;
     height: 24px;
@@ -327,44 +367,44 @@ select {
     margin-top: 16px;
 }
 
-select.txt4 {
+.donation select.txt4 {
     float:  left;
     width:  301px;
 }
 
-select.txt5 {
+.donation select.txt5 {
     float: left;
     margin-left: 8px;
 }
 /* ---------------------------- Label Style ---------------------*/
 
 
-label {
+.donation label {
     width: 228px;
     margin-bottom: 10px;
     margin-top: 16px;
 }
 
-label.amount {
+.donation label.amount {
     float: left;
     clear: left;
     margin-top: 10px; 
     width: 120px;
 }
 
-label.email {
+.donation label.email {
     float: left;
     clear: left;
     width: 240px;
 }
 
 
-label.txt {
+.donation label.txt {
     float: left;
     clear: left;
 }
 
-label.txt1 {
+.donation label.txt1 {
     float: left;
     width: 600px;
 }
